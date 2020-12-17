@@ -7,6 +7,7 @@ const height = Dimensions.get("window").height;
 const Map = () => {
   return (
     <MapView
+      showsUserLocation
       style={styles.map}
       loadingEnabled={true}
       region={{
